@@ -1,0 +1,229 @@
+{
+  "items": [
+    {
+      "caseId": "TUFOS-2026-001",
+      "title": "臺東專科學校夜間光點移動目擊通報",
+      "title_en": "Moving lights reported at National Taitung Junior College",
+      "date": "2026.07.18",
+      "location": "臺東專科學校",
+      "location_en": "National Taitung Junior College, Taitung",
+      "witnesses": 1,
+      "summary": "通報者表示，於臺東專科學校受訓期間在凌晨觀察夜空，見到兩個光點出現移動、轉向及逐漸變暗等現象。",
+      "summary_en": "The reporter described two lights moving, changing direction and fading while observing the night sky during training in Taitung.",
+      "observation": "據通報者敘述，當晚先看見流星，其後注意到另外兩個光點。其中一個光點由遠方山脈一側移向另一側，隨後改變方向，經過所在建築上方；通報者估計此段過程不足 30 秒。另一個光點被描述為下降、短暫停留，之後逐漸變暗而消失。以上為目擊者的視覺觀察，未取得目標距離或飛行高度的測量資料。",
+      "observation_en": "According to the account, one light crossed the distant mountain skyline, changed direction and passed above the building in less than an estimated 30 seconds. Another appeared to descend, pause and fade. These are visual estimates without measured distance or altitude.",
+      "review": "本次通報未附現場照片或影片。頁面圖片為先前依目擊描述製作的模擬示意，並非現場影像。現有資料不足以推算實際速度、加速度或確認目標性質，仍需補充觀察方位、時間及可供交叉比對的紀錄。",
+      "review_en": "No field photograph or video accompanied the submission. The existing image is an illustration based on the account, not photographic evidence. The available information does not establish speed, acceleration or identification.",
+      "image": "/images/uploads/line_20260915_081808.png",
+      "background": "ph-grid",
+      "videos": [],
+      "time": "03:12",
+      "shape": "光點／光球",
+      "shape_en": "Light / orb"
+    },
+    {
+      "caseId": "TUFOS-2026-002",
+      "title": "義大利 Minturno 光點短暫停留與移動通報",
+      "title_en": "Light reported pausing and moving in Minturno, Italy",
+      "date": "2026.08.17",
+      "location": "義大利明圖爾諾（Minturno）",
+      "location_en": "Minturno, Italy",
+      "summary": "通報者描述一個目標短暫停留後快速移動，並提供兩段 YouTube Shorts 連結及一張標註光點的影像截圖。",
+      "summary_en": "The reporter described a target pausing and then moving rapidly, supplying two YouTube Shorts links and an annotated screenshot.",
+      "observation": "通報者將目標外觀填為碟形，並以「停下之後瞬移」描述所見變化。附件為夜空影像截圖，含通報者圈選標記；兩段影片以原 YouTube 來源引用。",
+      "observation_en": "The form described a disc-shaped target that stopped and then moved abruptly. The supplied screenshot includes a circle marking the reported light.",
+      "review": "快速位移與停留為通報者對畫面的描述，尚不能據此認定實際飛行速度、瞬間加速或排除一般光學與拍攝因素。需進一步取得未剪輯原檔、拍攝方向與時間資訊。",
+      "review_en": "The reported pause and rapid displacement do not by themselves establish physical speed or acceleration, or exclude optical and camera effects. Unedited footage and capture details are needed.",
+      "image": "/images/uploads/tufos-2026-002-original.jpeg",
+      "imageCrop": {
+        "x": 62,
+        "y": 342,
+        "width": 1083,
+        "height": 1798,
+        "sourceWidth": 1206,
+        "sourceHeight": 2622
+      },
+      "videos": [
+        {
+          "file": "https://youtube.com/shorts/fXCtrEYmHQs",
+          "caption": "通報者提供之影片（一），引用 YouTube 原連結",
+          "caption_en": "Submitted video 1 — original YouTube link"
+        },
+        {
+          "file": "https://youtube.com/shorts/rdLqSYpkGrs",
+          "caption": "通報者提供之影片（二），引用 YouTube 原連結",
+          "caption_en": "Submitted video 2 — original YouTube link"
+        }
+      ],
+      "background": "ph-grid",
+      "time": "22:06",
+      "shape": "碟形／飛碟形",
+      "shape_en": "Disc-shaped"
+    },
+    {
+      "caseId": "TUFOS-2026-003",
+      "title": "高雄市鳳山區夜空白色光點目擊通報",
+      "title_en": "White light reported over Fengshan, Kaohsiung",
+      "date": "2025.02.06",
+      "location": "高雄市鳳山區中崙二路",
+      "location_en": "Zhonglun 2nd Road, Fengshan District, Kaohsiung",
+      "witnesses": 2,
+      "summary": "兩名目擊者通報夜空中出現快速移動的白色光點，並提供一段手機影片。",
+      "summary_en": "Two witnesses reported a rapidly moving white light in the night sky and supplied a short phone video.",
+      "observation": "通報資料記錄目擊時間為 2025 年 2 月 6 日 19:47，地點為高雄市鳳山區中崙二路。通報者形容目標為白色且移動很快，並特別註明畫面中另有一處因手機拍攝問題產生的光點，該光點並非本次通報目標。所附影片片長約 2.48 秒。",
+      "observation_en": "The form records 19:47 on 6 February 2025 at Zhonglun 2nd Road. The reporter distinguished the target from another light attributed to the phone recording. The submitted clip is approximately 2.48 seconds long.",
+      "review": "已將原始附件保存於學會影片庫。通報者對手機拍攝光點的說明予以保留，但未據此判定具體光學成因。短片與文字資料尚不足以確認目標距離、尺寸或實際速度。",
+      "review_en": "The original attachment is preserved in the Society's video storage. The account does not establish the target's distance, size or physical speed.",
+      "background": "ph-grid",
+      "videos": [
+        {
+          "file": "https://media.tufos.org.tw/cases/tufos-003-original.mov",
+          "caption": "通報者提供之目擊影片",
+          "caption_en": "Submitted sighting video"
+        }
+      ],
+      "time": "19:47",
+      "shape": "光點／光球",
+      "shape_en": "Light / orb"
+    },
+    {
+      "caseId": "TUFOS-2026-004",
+      "title": "苗栗竹南拍攝月亮時發現移動光點通報",
+      "title_en": "Moving light reported while filming the Moon in Zhunan",
+      "date": "2026.09.27",
+      "location": "苗栗縣竹南鎮",
+      "location_en": "Zhunan Township, Miaoli County",
+      "summary": "通報者在拍攝月亮時注意到一個移動光點，認為其移動方式與平時所見飛機或星體不同，並附影片供辨識。",
+      "summary_en": "While photographing the Moon, the reporter noticed a moving light and supplied a video for identification.",
+      "observation": "據通報資料，拍攝時使用 100–400mm 鏡頭，焦距設定為 400mm，另加 1.4 倍增距鏡。通報者表示，目標在畫面中十分微小，即使放大仍難辨識，並主觀認為其軌跡不同於飛機及星體。所附影片片長約 3.57 秒。",
+      "observation_en": "The account specifies a 100–400mm lens at 400mm with a 1.4× teleconverter. The target appeared very small and remained difficult to identify. The submitted clip is approximately 3.57 seconds long.",
+      "review": "已保存原始附件。目標在畫面中的位移仍須結合相機晃動、追蹤方式與拍攝方位分析，現階段不足以判定目標種類或排除人造物。",
+      "review_en": "The original attachment is retained. Apparent movement requires assessment alongside camera motion, tracking and viewing direction; identification remains unresolved.",
+      "background": "ph-grid",
+      "videos": [
+        {
+          "file": "https://media.tufos.org.tw/cases/tufos-004-original.mov",
+          "caption": "通報者提供之目擊影片",
+          "caption_en": "Submitted sighting video"
+        }
+      ],
+      "time": "19:16",
+      "shape": "光點／光球",
+      "shape_en": "Light / orb"
+    },
+    {
+      "caseId": "TUFOS-2026-005",
+      "title": "桃園拍攝月亮時發現黑色影像通報",
+      "title_en": "Dark shapes reported in photographs of the Moon in Taoyuan",
+      "date": "2026.09.27",
+      "location": "桃園（詳細位置未提供）",
+      "location_en": "Taoyuan (precise site not provided)",
+      "witnesses": 4,
+      "summary": "通報者表示，以單眼相機拍攝月亮時看見黑影，檢視照片後認為黑點在不同影像間的位置有所變化。",
+      "summary_en": "The reporter described dark shapes while photographing the Moon with a DSLR and apparent changes in position between photographs.",
+      "observation": "表單填報目擊人數為 4 人，目標外觀分類為碟形。據通報者敘述，拍攝時一度懷疑為鏡頭髒污，輸出照片後認為不同畫面中的黑點有移動，且外觀呈碟狀。本次表單未附照片、影片或可存取的外部影像連結。",
+      "observation_en": "The form lists four witnesses and classifies the shape as a disc. The reporter initially suspected dirt on the lens, then described movement between images. No photograph, video or accessible media link was attached.",
+      "review": "本案目前僅有文字描述。需取得原始連拍照片、完整拍攝資訊及比較畫面，方可評估目標是否為前景物、成像因素或其他來源；尚無足夠影像證據確認外形與移動。",
+      "review_en": "Only the written account is available. Original image sequences and capture details are needed to assess foreground objects, imaging effects and other possible sources.",
+      "background": "ph-grid",
+      "videos": [],
+      "time": "20:40",
+      "shape": "碟形／飛碟形",
+      "shape_en": "Disc-shaped"
+    },
+    {
+      "caseId": "TUFOS-2026-006",
+      "title": "淡水山稜方向條狀閃光目擊通報",
+      "title_en": "Elongated flashes reported toward the mountain ridge from Tamsui",
+      "date": "2026.09.28",
+      "location": "新北市淡水區淡金路二段（大樓高處）",
+      "location_en": "Elevated building viewpoint, Danjin Road Section 2, Tamsui",
+      "witnesses": 6,
+      "summary": "六人通報於大樓高處觀察月亮時，在對面山稜方向看見條狀閃光，並提供手機影片。",
+      "summary_en": "Six people were reported present when elongated flashes were seen toward a mountain ridge while observing the Moon from a building.",
+      "observation": "通報者表示，當晚先注意到月亮顏色異於平常，之後在對面山頂方向看見條狀閃光，並推測該方向為陽明山。通報者稱平時未在該山頂方向見到房屋。表單形狀欄填為圓形／球形，描述欄則記為條狀閃光，兩者均保留供後續核對。所附影片片長約 4.19 秒。",
+      "observation_en": "The reporter noticed an unusual lunar colour and then elongated flashes toward a ridge believed to be Yangmingshan. The form's round/spherical classification differs from the elongated-flash description. The supplied clip is approximately 4.19 seconds long.",
+      "review": "已保存原始附件。山稜方位與實際光源位置尚待確認，現有資料不足以判定為空中目標或排除地面、建物及拍攝造成的光源。公開位置保留至路段，未刊登通報中的門牌。",
+      "review_en": "The original attachment is retained. The ridge direction and light source position remain unverified; airborne, ground-based and imaging explanations have not been resolved.",
+      "background": "ph-grid",
+      "videos": [
+        {
+          "file": "https://media.tufos.org.tw/cases/tufos-006-original.mov",
+          "caption": "通報者提供之目擊影片",
+          "caption_en": "Submitted sighting video"
+        }
+      ],
+      "time": "19:10",
+      "shape": "圓形／球形（表單填寫；描述為條狀閃光）",
+      "shape_en": "Round / spherical (form entry; described as elongated flashes)"
+    },
+    {
+      "caseId": "TUFOS-2026-007",
+      "title": "桃園中壢月亮照片中長條形暗影通報",
+      "title_en": "Elongated dark mark reported in a Moon photograph from Zhongli",
+      "date": "2026.11.01",
+      "location": "桃園市中壢區",
+      "location_en": "Zhongli District, Taoyuan",
+      "witnesses": 1,
+      "summary": "通報者在檢視月亮照片時發現長條形暗影，表示拍攝當下未以肉眼注意到該目標，並附一張照片。",
+      "summary_en": "An elongated dark mark was noticed when reviewing a photograph of the Moon. The reporter did not notice the object visually at the time.",
+      "observation": "據通報者敘述，使用手機以約 100 倍放大拍攝，曾連續拍攝兩張照片，僅其中一張出現該暗影。所附照片可見月亮及其下方的長條形暗影；另一張比較照片未隨本次表單提供。手機型號依通報者填寫為 vivo x500 pro，尚未核實。",
+      "observation_en": "The reporter described taking two consecutive phone photographs at approximately 100× magnification, with the mark appearing in only one. One photograph was supplied; the comparison image was not attached. The stated phone model has not been verified.",
+      "review": "本案為照片檢視後發現的影像現象，未有目標飛行過程的直接觀察紀錄。單張照片不足以確定暗影的距離、尺寸或移動情況，需取得原始兩張照片及拍攝資訊以供比較。",
+      "review_en": "This is an image-review report without direct observation of a flight path. One image cannot establish distance, dimensions or motion; both original photographs and capture details are needed.",
+      "image": "/images/uploads/tufos-2026-007-original.jpg",
+      "background": "ph-grid",
+      "videos": [],
+      "time": "10:00",
+      "shape": "雪茄形／長條形",
+      "shape_en": "Cigar-shaped / elongated"
+    },
+    {
+      "caseId": "TUFOS-2026-008",
+      "title": "臺北信義區三個蝶形發光目標歷史目擊通報",
+      "title_en": "Historical report of three butterfly-like lights in Xinyi, Taipei",
+      "date": "2014 年春夏間（日期未確定）",
+      "location": "臺北市信義區信義誠品附近",
+      "location_en": "Near Eslite Xinyi, Xinyi District, Taipei",
+      "witnesses": 5,
+      "summary": "通報者回憶於 2014 年春夏間，在信義誠品附近見到三個帶有彩色光的蝶形目標，並於 2026 年補交通報及一張照片。",
+      "summary_en": "In a retrospective submission, the reporter described three butterfly-like objects with coloured lights near Eslite Xinyi in spring or summer 2014.",
+      "observation": "據通報者回憶，目標具有類似翅膀的結構，發出不同顏色的光，中央呈咖啡色盒狀，並有轉動及翅膀拍動的視覺特徵。通報者描述其無聲停留於空中約十餘至二十分鐘，之後飄向大樓後方而消失。表單填報 5 人在場及約 19:30；雖日期欄填為 2014-07-01，通報者在描述中明確表示已忘記確切日期，僅能確認為 2014 年春夏間。",
+      "observation_en": "The recollection describes coloured wing-like structures, a rotating brown box-like centre, no audible sound, and an estimated 10–20 minute observation before the targets passed behind buildings. The form lists five people and about 19:30. Although 1 July was entered, the reporter explicitly stated that the precise date was forgotten.",
+      "review": "附件為通報者提供之夜間建物與光點影像，通報者表示照片無法完整呈現當時所見外形。目標尺寸、結構與運動屬多年後的回憶描述，尚缺拍攝原檔、確切日期及其他在場者紀錄，現階段不作物體種類判定。附件檔名中的日期不作為事件發生日期。",
+      "review_en": "The supplied image shows buildings and lights at night; the reporter said it does not fully represent the perceived shape. Structure, size and motion remain retrospective estimates. The attachment filename is not treated as the event date.",
+      "image": "/images/uploads/tufos-2026-008-original.jpg",
+      "background": "ph-grid",
+      "videos": [],
+      "time": "約 19:30",
+      "shape": "其他（通報者描述為蝶形）",
+      "shape_en": "Other (described as butterfly-like)"
+    },
+    {
+      "caseId": "TUFOS-2026-011",
+      "submissionId": "8e81e96528780fae1f289036cb653d3b5860e76d6cd31bcc0c0b801dec62549b",
+      "title": "新竹公道五路頂樓拍攝雲層亮光通報",
+      "title_en": "Lights in clouds filmed from a rooftop near Gongdao 5th Road, Hsinchu",
+      "date": "2026.10.26",
+      "time": "約 21:44",
+      "location": "新竹公道五路附近（建物頂樓）",
+      "location_en": "Building rooftop near Gongdao 5th Road, Hsinchu",
+      "shape": "亮光（具體外形未明）",
+      "shape_en": "Light; physical shape undetermined",
+      "summary": "通報者表示，在新竹公道五路一處建物頂樓看見疑似旋轉的亮光，起初認為可能來自下方燈光；後退尋找較佳視角後，觀察到亮光移動，隨後看似遠離並消失於雲層中，並提供一段現場影片。",
+      "summary_en": "The reporter described a seemingly rotating light seen from a rooftop near Gongdao 5th Road, Hsinchu. Initially thought to be lighting from below, it appeared to move, recede and disappear into clouds after the reporter stepped back for a better view. One video was supplied.",
+      "observation": "據通報者來信描述，其在建物頂樓注意到一處看似旋轉的亮光，起初以為是下方燈光所致，因而向後移動以尋找較佳觀察角度。通報者表示，之後發現亮光會移動，並形容其移動後逐漸遠離、消失於雲層中。所附影片長約 22 秒，畫面可見夜間雲層與亮光；旋轉及遠離為通報者對所見現象的描述。",
+      "observation_en": "According to the emailed account, the reporter noticed what appeared to be a rotating light while on a rooftop, initially attributing it to lighting below. After stepping backward for a clearer view, the reporter perceived movement and described the light as receding and disappearing into clouds. The approximately 22-second recording shows nighttime clouds and light. Rotation and recession are the reporter's descriptions.",
+      "review": "本案依來信敘述及所附影片整理。現有資料未提供拍攝方位、目標距離或高度，僅憑亮光在雲層中的外觀及畫面位移，尚不足以確認是否為實體飛行物、推算實際運動情況，或排除地面燈光照射雲層及拍攝因素。影片時間資訊仍可由通報者進一步確認。",
+      "review_en": "Compiled from the emailed account and supplied video. Camera direction, target distance and altitude are not established. Light patterns in clouds and image motion alone do not establish a physical flying object or its actual motion, or exclude ground lighting illuminating clouds and camera effects. The recording timestamp remains subject to confirmation by the reporter.",
+      "background": "ph-grid",
+      "videos": [
+        {
+          "file": "https://media.tufos.org.tw/cases/report-8e8873f7-af90-4ebb-8fd1-527b1bfde246.mp4",
+          "caption": "通報者提供之目擊影片",
+          "caption_en": "Submitted sighting video"
+        }
+      ]
+    }
+  ]
+}

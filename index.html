@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  window.SITE_BASE = location.hostname.endsWith('github.io') ? `/${location.pathname.split('/')[1]}/` : '/';
+  document.write('<base href="' + window.SITE_BASE + '">');
+</script>
+<title>台灣飛碟學會 | Taiwan UFOlogy Society</title>
+<meta name="description" content="台灣飛碟學會 — 以科學方法研究不明飛行物現象，記錄目擊事件，連結全球研究網絡。">
+<link rel="icon" type="image/png" href="images/uploads/logo-transparent.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;family=Noto+Sans+TC:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JTSFNC92FQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JTSFNC92FQ');
+</script>
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<div id="topbar">
+  <div class="wrap">
+    <div class="topbar-left">
+      <a href="#about">學會簡介</a>
+      <a href="#join">會員專區</a>
+      <a href="mailto:contact@tufos.org.tw">聯絡我們</a>
+    </div>
+    <div class="topbar-right">
+      <a href="./" style="font-weight:800;">中文</a>
+      <a href="en/">EN</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="wrap">
+    <a href="./" class="logo">
+      <img src="images/uploads/logo.jpg" alt="TUFOS">
+      <span class="logo-text">台灣飛碟學會<small>TAIWAN UFOLOGY SOCIETY</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="news/">最新消息</a>
+      <a href="#about">學會簡介</a>
+      <a href="#method">調查方法</a>
+      <a href="cases/">案例資料庫</a>
+      <a href="report/">目擊通報</a>
+      <a href="#join">加入學會</a>
+      <a href="#links">相關連結</a>
+    </nav>
+    <button class="nav-hamburger" type="button" onclick="toggleMobile()" aria-label="開啟選單" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="news/" onclick="closeMobile()">最新消息</a>
+    <a href="#about" onclick="closeMobile()">學會簡介</a>
+    <a href="#method" onclick="closeMobile()">調查方法</a>
+    <a href="cases/" onclick="closeMobile()">案例資料庫</a>
+    <a href="report/" onclick="closeMobile()">目擊通報</a>
+    <a href="#join" onclick="closeMobile()">加入學會</a>
+    <a href="#links" onclick="closeMobile()">相關連結</a>
+  </div>
+</header>
+
+<!-- ===== HERO / FEATURED ===== -->
+<section id="hero" class="ph ph-nebula">
+  <div class="hero-stars" id="hero-stars"></div>
+  <div class="hero-encounter" aria-hidden="true">
+    <img class="hero-ufo" src="images/generated/hero-ufo-complete.png" alt="">
+  </div>
+  <div class="wrap hero-content">
+    <div class="tag-row">
+      <span class="tag tag-red" id="hero-tag">焦點報導</span>
+      <span class="tag tag-outline" id="hero-date">2026.06.14</span>
+    </div>
+    <h1 id="hero-title">記錄目擊<br>理性探索未知</h1>
+    <p id="hero-desc">台灣飛碟學會自1993年成立以來，持續收集、整理與分析不明飛行物目擊資料，建立可供研究與交叉比對的在地紀錄。</p>
+    <div class="hero-btns">
+      <a href="report/" class="btn btn-white">目擊通報 →</a>
+      <a href="cases/" class="btn btn-outline-white">查看案例資料庫</a>
+    </div>
+  </div>
+</section>
+
+<section class="trust-band" aria-label="學會研究原則">
+  <div class="wrap trust-grid">
+    <div><strong>1993</strong><span>正式成立</span></div>
+    <div><strong>4 階段</strong><span>標準調查流程</span></div>
+    <div><strong>交叉比對</strong><span>排除常見現象</span></div>
+    <div><strong>資料保密</strong><span>尊重通報者隱私</span></div>
+  </div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section class="section section-alt" id="news">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">LATEST UPDATES</div>
+        <h2>最新消息</h2>
+      </div>
+      <a href="news/" class="link-more">查看所有消息 →</a>
+    </div>
+    <div class="news-grid fade-up" id="news-grid"></div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow" id="about-eyebrow">ABOUT TUFOS</div>
+        <h2 id="about-heading">關於台灣飛碟學會</h2>
+      </div>
+    </div>
+    <div class="about-grid fade-up">
+      <div class="ph ph-deepsky" id="about-image"></div>
+      <div>
+        <p style="color:var(--gray);margin-bottom:1.2rem;" id="about-p1"></p>
+        <p style="color:var(--gray);margin-bottom:1.2rem;" id="about-p2"></p>
+        <p style="color:var(--gray-light);font-size:.85rem;margin-bottom:1.2rem;" id="about-chairs"></p>
+        <a href="#join" class="btn btn-blue">了解如何加入 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== METHOD ===== -->
+<section class="section section-alt method-section" id="method">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">INVESTIGATION METHOD</div>
+        <h2>我們如何調查目擊事件</h2>
+      </div>
+      <p class="section-intro">每一筆通報都先被視為待驗證觀測紀錄。我們優先釐清可被航空、天文、氣象與影像因素解釋的可能性，再保留仍無法確認的案例。</p>
+    </div>
+    <div class="method-grid fade-up">
+      <article><span>01</span><h3>收集原始資料</h3><p>記錄時間、地點、方位、持續時間、移動方式、目擊人數與原始影像。</p></article>
+      <article><span>02</span><h3>確認觀測條件</h3><p>比對天候、能見度、星象、航班、衛星與附近環境，建立事件背景。</p></article>
+      <article><span>03</span><h3>排除常見來源</h3><p>檢視飛機、無人機、天體、燈光、鏡頭反射與影像壓縮等可能原因。</p></article>
+      <article><span>04</span><h3>分級與保存</h3><p>依資料完整度標示調查狀態，保存可供後續交叉比對的觀測紀錄。</p></article>
+    </div>
+    <div class="method-note fade-up"><strong>判定原則：</strong>「無法辨識」不等同於「已證實為地外飛行器」。案例狀態會隨新增證據更新。</div>
+  </div>
+</section>
+
+<!-- ===== CASES ===== -->
+<section class="section" id="cases">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">CASE DATABASE</div>
+        <h2>目擊案例資料庫</h2>
+      </div>
+      <a href="cases/" class="link-more">查看所有案例 →</a>
+    </div>
+    <div class="cases-grid fade-up" id="cases-grid"></div>
+  </div>
+</section>
+
+<!-- ===== REPORT ===== -->
+<section class="section section-alt" id="report">
+  <div class="wrap">
+    <div class="report-panel fade-up">
+      <div class="report-panel-main">
+        <div class="eyebrow">REPORT A SIGHTING</div>
+        <h2>目擊通報系統</h2>
+        <p>把觀測時間、地點、方向、影像與描述整理成可研究的紀錄。通報資料僅供學會研究團隊分析使用，個人聯絡資訊不會公開。</p>
+        <div class="alert-box" id="report-alert" style="display:none;"></div>
+        <div class="report-panel-actions">
+          <a href="report/" class="btn btn-red">前往目擊通報系統 →</a>
+          <a href="cases/" class="btn">查看案例資料庫</a>
+        </div>
+      </div>
+      <div class="report-panel-detail">
+        <div class="report-mini-grid">
+          <article><span>01</span><h3>提交紀錄</h3><p>填寫目擊時間、地點、現象描述，並附上照片、影片或雲端連結。</p></article>
+          <article><span>02</span><h3>研究審核</h3><p>研究團隊初步比對天文、航空、氣象與影像因素，必要時聯絡確認。</p></article>
+          <article><span>03</span><h3>整理保存</h3><p>確認後依資料完整度標示狀態，保存為後續分析與交叉比對依據。</p></article>
+        </div>
+        <div class="report-prep">
+          <h3>通報前可先準備</h3>
+          <ul>
+            <li>目擊日期、時間與地點</li>
+            <li>形狀、顏色、移動方式與持續時間</li>
+            <li>照片、影片或雲端檔案連結</li>
+            <li>可聯絡的電子郵件</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MEMBERSHIP ===== -->
+<section class="section" id="join">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">MEMBERSHIP</div>
+        <h2>加入學會</h2>
+      </div>
+    </div>
+    <div class="join-intro fade-up">
+      <div class="join-info-grid">
+        <div class="join-info-card">
+          <h4>入會方式</h4>
+          <p class="join-price-line">入會費 <strong>NT$500</strong>　年費 <strong>NT$1,500</strong></p>
+          <p class="join-note">會期計算：自繳費日起至次年滿一年為止</p>
+        </div>
+        <div class="join-info-card">
+          <h4>會員權益</h4>
+          <ul>
+            <li>精美 PVC 會員卡</li>
+            <li>UFO 棒球帽</li>
+            <li>《飛碟探索》雜誌（季刊）</li>
+            <li>加入 FB 會員專屬社團與 Line 群</li>
+            <li>講座或聯誼活動（1 年 3 次）</li>
+            <li>七星山探秘（不定期）</li>
+            <li>購書、收費活動優惠等</li>
+          </ul>
+        </div>
+        <div class="join-info-card">
+          <h4>匯款帳號</h4>
+          <p>永豐銀行（代號 807）</p>
+          <p>帳號：15401800005308</p>
+          <p>戶名：台灣飛碟學會</p>
+          <p class="join-note">繳費後，請將匯款帳號後 5 碼寄到 <a href="mailto:contact@tufos.org.tw">contact@tufos.org.tw</a>，並註明繳款人姓名、地址、聯繫電話或手機號碼，會員資格立即生效。</p>
+        </div>
+      </div>
+      <div class="join-gallery">
+        <div class="join-gallery-track" id="join-gallery-track"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LINKS ===== -->
+<section class="section section-alt" id="links">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">EXPLORE MORE</div>
+        <h2>相關連結</h2>
+      </div>
+    </div>
+    <div class="links-list fade-up" id="links-list"></div>
+    <div class="links-more" id="links-more" style="display:none;">
+      <button class="btn btn-plain" id="links-more-btn" onclick="toggleLinksMore()">顯示更多 ↓</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="images/uploads/logo.jpg" alt="TUFOS">
+          <div class="ft-title">台灣飛碟學會<small>TAIWAN UFOLOGY SOCIETY</small></div>
+        </div>
+        <p id="footer-desc">致力於不明飛行物現象的科學研究與記錄，連結全球研究者，探索宇宙未解之謎。本網站所有資料僅供研究參考，不代表任何政治立場。</p>
+        <div class="social-row" id="social-row">
+          <a class="social-btn" href="https://www.facebook.com/taiwanufosociety" title="Facebook" id="social-fb" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a class="social-btn" href="mailto:contact@tufos.org.tw" title="Email" id="social-email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>探索</h5>
+        <a href="#about">學會簡介</a>
+        <a href="news/">最新消息</a>
+      </div>
+      <div class="footer-col">
+        <h5>參與</h5>
+        <a href="report/">目擊通報</a>
+        <a href="#join">加入學會</a>
+        <a href="mailto:contact@tufos.org.tw">聯絡我們</a>
+      </div>
+      <div class="footer-col">
+        <h5>資源</h5>
+        <a href="#method">調查方法</a>
+        <a href="cases/">案例資料庫</a>
+        <a href="#links">相關連結</a>
+      </div>
+      <div class="footer-col">
+        <h5>關於</h5>
+        <button type="button" onclick="openInfoModal('privacy-modal')">隱私政策</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 台灣飛碟學會 Taiwan UFOlogy Society. All Rights Reserved.</div>
+      <div>EST. 1993 · 台北市</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== NEWS MODAL ===== -->
+<div class="modal-overlay" id="news-modal" onclick="if(event.target===this) closeNewsModal()">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" onclick="closeNewsModal()" aria-label="關閉">&times;</button>
+    <div class="ph" id="modal-img"></div>
+    <div class="modal-date" id="modal-date"></div>
+    <h3 id="modal-title"></h3>
+    <p id="modal-body"></p>
+  </div>
+</div>
+
+<!-- ===== ALL NEWS MODAL ===== -->
+<div class="modal-overlay" id="all-news-modal" onclick="if(event.target===this) closeAllNewsModal()">
+  <div class="modal-box modal-box-wide" role="dialog" aria-modal="true" aria-label="最新消息">
+    <button class="modal-close" onclick="closeAllNewsModal()" aria-label="關閉">&times;</button>
+    <h3 style="margin-bottom:1.4rem;">最新消息</h3>
+    <div class="news-list" id="news-list"></div>
+  </div>
+</div>
+
+<!-- ===== CASE MODAL ===== -->
+<div class="modal-overlay" id="case-modal" onclick="if(event.target===this) closeCaseModal()">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="case-modal-title">
+    <button class="modal-close" onclick="closeCaseModal()" aria-label="關閉">&times;</button>
+    <div class="ph" id="case-modal-img"></div>
+    <div class="modal-date" id="case-modal-meta"></div>
+    <h3 id="case-modal-title"></h3>
+    <p id="case-modal-body"></p>
+    <div class="case-detail-grid" id="case-modal-details"></div>
+  </div>
+</div>
+
+<!-- ===== ALL CASES MODAL ===== -->
+<div class="modal-overlay" id="all-cases-modal" onclick="if(event.target===this) closeAllCasesModal()">
+  <div class="modal-box modal-box-wide" role="dialog" aria-modal="true" aria-label="目擊案例資料庫">
+    <button class="modal-close" onclick="closeAllCasesModal()" aria-label="關閉">&times;</button>
+    <h3 style="margin-bottom:1.4rem;">目擊案例資料庫</h3>
+    <div class="news-list" id="cases-list"></div>
+  </div>
+</div>
+
+<!-- ===== JOIN PHOTO MODAL ===== -->
+<div class="modal-overlay" id="join-photo-modal" onclick="if(event.target===this) closeJoinPhotoModal()">
+  <div class="modal-box join-photo-modal-box" role="dialog" aria-modal="true" aria-label="活動照片">
+    <button class="modal-close" onclick="closeJoinPhotoModal()" aria-label="關閉">&times;</button>
+    <div class="ph join-modal-image" id="join-modal-img"></div>
+    <p class="join-modal-caption" id="join-modal-caption" hidden></p>
+  </div>
+</div>
+
+<!-- ===== PRIVACY MODAL ===== -->
+<div class="modal-overlay" id="privacy-modal" onclick="if(event.target===this) closeInfoModal('privacy-modal')">
+  <div class="modal-box modal-box-wide" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+    <button class="modal-close" onclick="closeInfoModal('privacy-modal')" aria-label="關閉">&times;</button>
+    <div class="eyebrow">PRIVACY</div>
+    <h3 id="privacy-title">目擊通報隱私政策</h3>
+    <div class="policy-copy">
+      <h4>資料用途</h4><p>通報內容僅用於目擊事件整理、研究、交叉比對，以及必要時與通報者確認資料。</p>
+      <h4>公開原則</h4><p>姓名、電子郵件及可辨識個人身分的資訊不會公開。案例公開時會移除個人識別資料，精確地址亦可能模糊處理。</p>
+      <h4>資料保存與刪除</h4><p>資料由學會研究團隊管理。您可以透過 <a href="mailto:contact@tufos.org.tw">contact@tufos.org.tw</a> 申請更正或刪除本人提交的資料。</p>
+      <h4>影像與附件</h4><p>勾選同意 AI 整理及公開時，通報文字（不含聯絡方式欄位）會交由 OpenAI 整理，AI 整理結果僅保存為私有草稿，由學會人工確認報告及附件後才會公開。未勾選時，通報僅供私下研究，不會自動公開。請勿提供他人個資或無權公開的附件。</p>
+    </div>
+  </div>
+</div>
+
+<script>window.SITE_LANG = "zh";</script>
+<script src="assets/video-source.js"></script>
+<script src="assets/site.js"></script>
+<!-- Netlify Identity：用於處理後台邀請/重設密碼連結 -->
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+  }
+</script>
+</body>
+</html>

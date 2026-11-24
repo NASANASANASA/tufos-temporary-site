@@ -1,0 +1,57 @@
+{
+  "photos": [
+    {
+      "image": "/images/uploads/join.jpg",
+      "caption": "會員權益"
+    },
+    {
+      "image": "/images/uploads/member2.jpg",
+      "date": "2023.05.28",
+      "caption": "會員活動"
+    },
+    {
+      "image": "/images/uploads/20230612-join.jpg",
+      "date": "2023.06.12",
+      "caption": "30週年紀念",
+      "date_en": "June 12, 2023",
+      "caption_en": "Society activity"
+    },
+    {
+      "image": "/images/uploads/20230612-join-1.jpg",
+      "date": "2023.06.12",
+      "caption": "30週年紀念",
+      "date_en": "June 12, 2023",
+      "caption_en": "Society activity record"
+    },
+    {
+      "image": "/images/uploads/20230612-join-2.jpg",
+      "date": "2023.06.12",
+      "caption": "30週年紀念",
+      "date_en": "June 12, 2023",
+      "caption_en": "Society activity record"
+    },
+    {
+      "image": "/images/uploads/20260805.jpg",
+      "date": "2026.08.05",
+      "caption": "會員講座"
+    },
+    {
+      "image": "/images/uploads/20241229.jpg",
+      "date": "2024.12.29",
+      "caption": "外星人化妝比賽"
+    },
+    {
+      "image": "/images/uploads/20240526.jpg",
+      "date": "2024.05.26",
+      "caption": "七星山金字塔探秘活動"
+    },
+    {
+      "image": "/images/uploads/20171015.jpg",
+      "date": "2017.10.15",
+      "caption": "會員講座"
+    },
+    {
+      "image": "/images/uploads/20230612-join-2.jpg"
+    }
+  ]
+}

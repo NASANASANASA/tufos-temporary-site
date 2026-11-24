@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  window.SITE_BASE = location.hostname.endsWith('github.io') ? `/${location.pathname.split('/')[1]}/` : '/';
+  document.write('<base href="' + window.SITE_BASE + '">');
+</script>
+<title>Taiwan UFOlogy Society (TUFOS)</title>
+<meta name="description" content="Taiwan UFOlogy Society — scientific research into UFO phenomena, sighting reports, and a global research network.">
+<link rel="icon" type="image/png" href="images/uploads/logo-transparent.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;family=Noto+Sans+TC:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JTSFNC92FQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JTSFNC92FQ');
+</script>
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<div id="topbar">
+  <div class="wrap">
+    <div class="topbar-left">
+      <a href="#about">About</a>
+      <a href="#join">Membership</a>
+      <a href="mailto:contact@tufos.org.tw">Contact</a>
+    </div>
+    <div class="topbar-right">
+      <a href="./">中文</a>
+      <a href="en/" style="font-weight:800;">EN</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="wrap">
+    <a href="en/" class="logo">
+      <img src="images/uploads/logo.jpg" alt="TUFOS">
+      <span class="logo-text">Taiwan UFOlogy Society<small>台灣飛碟學會</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="en/news/">News</a>
+      <a href="#about">About</a>
+      <a href="#method">Method</a>
+      <a href="en/cases/">Case Database</a>
+      <a href="en/report/">Report a Sighting</a>
+      <a href="#join">Membership</a>
+      <a href="#links">Links</a>
+    </nav>
+    <button class="nav-hamburger" type="button" onclick="toggleMobile()" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="en/news/" onclick="closeMobile()">News</a>
+    <a href="#about" onclick="closeMobile()">About</a>
+    <a href="#method" onclick="closeMobile()">Method</a>
+    <a href="en/cases/" onclick="closeMobile()">Case Database</a>
+    <a href="en/report/" onclick="closeMobile()">Report a Sighting</a>
+    <a href="#join" onclick="closeMobile()">Membership</a>
+    <a href="#links" onclick="closeMobile()">Links</a>
+  </div>
+</header>
+
+<!-- ===== HERO / FEATURED ===== -->
+<section id="hero" class="ph ph-nebula">
+  <div class="hero-stars" id="hero-stars"></div>
+  <div class="hero-encounter" aria-hidden="true">
+    <img class="hero-ufo" src="images/generated/hero-ufo-complete.png" alt="">
+  </div>
+  <div class="wrap hero-content">
+    <div class="tag-row">
+      <span class="tag tag-red" id="hero-tag">Featured</span>
+      <span class="tag tag-outline" id="hero-date">2026.06.14</span>
+    </div>
+    <h1 id="hero-title">Document Sightings. Investigate the Unknown.</h1>
+    <p id="hero-desc">Since 1993, the Taiwan UFOlogy Society has collected, organized, and analyzed local sighting reports to build records for research and comparison.</p>
+    <div class="hero-btns">
+      <a href="en/report/" class="btn btn-white">Report a Sighting →</a>
+      <a href="en/cases/" class="btn btn-outline-white">View Case Database</a>
+    </div>
+  </div>
+</section>
+
+<section class="trust-band" aria-label="Research principles">
+  <div class="wrap trust-grid">
+    <div><strong>1993</strong><span>Established</span></div>
+    <div><strong>4 stages</strong><span>Investigation process</span></div>
+    <div><strong>Cross-checking</strong><span>Common causes reviewed</span></div>
+    <div><strong>Confidential</strong><span>Witness privacy respected</span></div>
+  </div>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section class="section section-alt" id="news">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">LATEST UPDATES</div>
+        <h2>Latest News</h2>
+      </div>
+      <a href="en/news/" class="link-more">View All News →</a>
+    </div>
+    <div class="news-grid fade-up" id="news-grid"></div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow" id="about-eyebrow">ABOUT TUFOS</div>
+        <h2 id="about-heading">About Taiwan UFOlogy Society</h2>
+      </div>
+    </div>
+    <div class="about-grid fade-up">
+      <div class="ph ph-deepsky" id="about-image"></div>
+      <div>
+        <p style="color:var(--gray);margin-bottom:1.2rem;" id="about-p1"></p>
+        <p style="color:var(--gray);margin-bottom:1.2rem;" id="about-p2"></p>
+        <p style="color:var(--gray-light);font-size:.85rem;margin-bottom:1.2rem;" id="about-chairs"></p>
+        <a href="#join" class="btn btn-blue">Learn How to Join →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== METHOD ===== -->
+<section class="section section-alt method-section" id="method">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div><div class="eyebrow">INVESTIGATION METHOD</div><h2>How We Investigate Sightings</h2></div>
+      <p class="section-intro">Every report begins as an observation to be verified. We first examine aviation, astronomical, weather, environmental, and imaging explanations before retaining unresolved cases.</p>
+    </div>
+    <div class="method-grid fade-up">
+      <article><span>01</span><h3>Collect Source Data</h3><p>Record time, location, direction, duration, movement, witness count, and original media.</p></article>
+      <article><span>02</span><h3>Check Conditions</h3><p>Compare weather, visibility, celestial objects, flights, satellites, and the local environment.</p></article>
+      <article><span>03</span><h3>Review Common Causes</h3><p>Assess aircraft, drones, astronomy, lights, lens reflections, and compression artifacts.</p></article>
+      <article><span>04</span><h3>Classify and Preserve</h3><p>Assign a status based on evidence quality and retain the record for later comparison.</p></article>
+    </div>
+    <div class="method-note fade-up"><strong>Principle:</strong> “Unidentified” does not mean “confirmed extraterrestrial craft.” Case status may change when new evidence becomes available.</div>
+  </div>
+</section>
+
+<!-- ===== CASES ===== -->
+<section class="section" id="cases">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">CASE DATABASE</div>
+        <h2>Sighting Case Database</h2>
+      </div>
+      <a href="en/cases/" class="link-more">View All Cases →</a>
+    </div>
+    <div class="cases-grid fade-up" id="cases-grid"></div>
+  </div>
+</section>
+
+<!-- ===== REPORT ===== -->
+<section class="section section-alt" id="report">
+  <div class="wrap">
+    <div class="report-panel fade-up">
+      <div class="report-panel-main">
+        <div class="eyebrow">REPORT A SIGHTING</div>
+        <h2>Sighting Report System</h2>
+        <p>Organize time, location, direction, media, and description into a research-ready record. Submitted information is used only by the Society research team.</p>
+        <div class="alert-box" id="report-alert" style="display:none;"></div>
+        <div class="report-panel-actions">
+          <a href="en/report/" class="btn btn-red">Go to Sighting Report →</a>
+          <a href="en/cases/" class="btn">View Case Database</a>
+        </div>
+      </div>
+      <div class="report-panel-detail">
+        <div class="report-mini-grid">
+          <article><span>01</span><h3>Submit the record</h3><p>Provide time, location, description, photos, videos, or cloud links.</p></article>
+          <article><span>02</span><h3>Research review</h3><p>The team checks astronomy, aviation, weather, and imaging factors.</p></article>
+          <article><span>03</span><h3>Archive and compare</h3><p>Verified reports are preserved for future comparison and analysis.</p></article>
+        </div>
+        <div class="report-prep">
+          <h3>Prepare before reporting</h3>
+          <ul><li>Date, time, and location</li><li>Shape, color, movement, and duration</li><li>Photos, videos, or cloud links</li><li>Reachable email address</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MEMBERSHIP ===== -->
+<section class="section" id="join">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">MEMBERSHIP</div>
+        <h2>Join the Society</h2>
+      </div>
+    </div>
+    <div class="join-intro fade-up">
+      <div class="join-info-grid">
+        <div class="join-info-card">
+          <h4>How to Join</h4>
+          <p class="join-price-line">Registration fee <strong>NT$500</strong>　Annual fee <strong>NT$1,500</strong></p>
+          <p class="join-note">Membership term: one year from the date of payment</p>
+        </div>
+        <div class="join-info-card">
+          <h4>Member Benefits</h4>
+          <ul>
+            <li>Custom PVC membership card</li>
+            <li>UFO baseball cap</li>
+            <li>"UFO Discovery" quarterly magazine</li>
+            <li>Access to members-only Facebook group and Line group</li>
+            <li>Lectures and social gatherings (3 times a year)</li>
+            <li>Seven Star Mountain expeditions (occasional)</li>
+            <li>Discounts on books and paid events</li>
+          </ul>
+        </div>
+        <div class="join-info-card">
+          <h4>Bank Transfer</h4>
+          <p>Bank SinoPac (Bank code 807)</p>
+          <p>Account No.: 15401800005308</p>
+          <p>Account Name: Taiwan UFOlogy Society</p>
+          <p class="join-note">After payment, please email the last 5 digits of the transfer account to <a href="mailto:contact@tufos.org.tw">contact@tufos.org.tw</a> with your name, address, and contact number. Membership takes effect immediately.</p>
+        </div>
+      </div>
+      <div class="join-gallery">
+        <div class="join-gallery-track" id="join-gallery-track"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LINKS ===== -->
+<section class="section section-alt" id="links">
+  <div class="wrap">
+    <div class="section-head fade-up">
+      <div>
+        <div class="eyebrow">EXPLORE MORE</div>
+        <h2>Links</h2>
+      </div>
+    </div>
+    <div class="links-list fade-up" id="links-list"></div>
+    <div class="links-more" id="links-more" style="display:none;">
+      <button class="btn btn-plain" id="links-more-btn" onclick="toggleLinksMore()">Show More ↓</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="images/uploads/logo.jpg" alt="TUFOS">
+          <div class="ft-title">Taiwan UFOlogy Society<small>台灣飛碟學會</small></div>
+        </div>
+        <p id="footer-desc">Dedicated to the scientific research and documentation of UFO phenomena, connecting researchers worldwide to explore the mysteries of the universe. All information on this site is for research purposes only and does not represent any political position.</p>
+        <div class="social-row" id="social-row">
+          <a class="social-btn" href="https://www.facebook.com/taiwanufosociety" title="Facebook" id="social-fb" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a class="social-btn" href="mailto:contact@tufos.org.tw" title="Email" id="social-email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <a href="#about">About</a>
+        <a href="#news">Latest News</a>
+      </div>
+      <div class="footer-col">
+        <h5>Get Involved</h5>
+        <a href="en/report/">Report a Sighting</a>
+        <a href="#join">Join the Society</a>
+        <a href="mailto:contact@tufos.org.tw">Contact Us</a>
+      </div>
+      <div class="footer-col">
+        <h5>Resources</h5>
+        <a href="#method">Investigation Method</a>
+        <a href="en/cases/">Case Database</a>
+        <a href="#links">Links</a>
+      </div>
+      <div class="footer-col">
+        <h5>About</h5>
+        <button type="button" onclick="openInfoModal('privacy-modal')">Privacy Policy</button>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Taiwan UFOlogy Society (台灣飛碟學會). All Rights Reserved.</div>
+      <div>EST. 1993 · Taipei</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== NEWS MODAL ===== -->
+<div class="modal-overlay" id="news-modal" onclick="if(event.target===this) closeNewsModal()">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" onclick="closeNewsModal()" aria-label="Close">&times;</button>
+    <div class="ph" id="modal-img"></div>
+    <div class="modal-date" id="modal-date"></div>
+    <h3 id="modal-title"></h3>
+    <p id="modal-body"></p>
+  </div>
+</div>
+
+<!-- ===== ALL NEWS MODAL ===== -->
+<div class="modal-overlay" id="all-news-modal" onclick="if(event.target===this) closeAllNewsModal()">
+  <div class="modal-box modal-box-wide" role="dialog" aria-modal="true" aria-label="Latest news">
+    <button class="modal-close" onclick="closeAllNewsModal()" aria-label="Close">&times;</button>
+    <h3 style="margin-bottom:1.4rem;">Latest News</h3>
+    <div class="news-list" id="news-list"></div>
+  </div>
+</div>
+
+<!-- ===== CASE MODAL ===== -->
+<div class="modal-overlay" id="case-modal" onclick="if(event.target===this) closeCaseModal()">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="case-modal-title">
+    <button class="modal-close" onclick="closeCaseModal()" aria-label="Close">&times;</button>
+    <div class="ph" id="case-modal-img"></div>
+    <div class="modal-date" id="case-modal-meta"></div>
+    <h3 id="case-modal-title"></h3>
+    <p id="case-modal-body"></p>
+    <div class="case-detail-grid" id="case-modal-details"></div>
+  </div>
+</div>
+
+<!-- ===== JOIN PHOTO MODAL ===== -->
+<div class="modal-overlay" id="join-photo-modal" onclick="if(event.target===this) closeJoinPhotoModal()">
+  <div class="modal-box join-photo-modal-box" role="dialog" aria-modal="true" aria-label="Activity photo">
+    <button class="modal-close" onclick="closeJoinPhotoModal()" aria-label="Close">&times;</button>
+    <div class="ph join-modal-image" id="join-modal-img"></div>
+    <p class="join-modal-caption" id="join-modal-caption" hidden></p>
+  </div>
+</div>
+
+<!-- ===== PRIVACY MODAL ===== -->
+<div class="modal-overlay" id="privacy-modal" onclick="if(event.target===this) closeInfoModal('privacy-modal')">
+  <div class="modal-box modal-box-wide" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+    <button class="modal-close" onclick="closeInfoModal('privacy-modal')" aria-label="Close">&times;</button>
+    <div class="eyebrow">PRIVACY</div>
+    <h3 id="privacy-title">Sighting Report Privacy Policy</h3>
+    <div class="policy-copy">
+      <h4>Use of data</h4><p>Reports are used only to organize, investigate, and cross-check sightings, and to contact the witness when clarification is needed.</p>
+      <h4>Publication</h4><p>Names, email addresses, and identifying information will not be published. Public cases are anonymized and precise addresses may be generalized.</p>
+      <h4>Retention and deletion</h4><p>Data is managed by the Society’s research team. You may request correction or deletion of your submission at <a href="mailto:contact@tufos.org.tw">contact@tufos.org.tw</a>.</p>
+      <h4>Media and attachments</h4><p>If you authorize AI editing and publication, the report text (excluding the contact field) is sent to OpenAI for editing. AI output is saved as a private draft. The Society reviews and approves the report and attachments before publication. Without this authorization, the submission remains private. Do not include personal information or material you lack permission to publish.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== ALL CASES MODAL ===== -->
+<div class="modal-overlay" id="all-cases-modal" onclick="if(event.target===this) closeAllCasesModal()">
+  <div class="modal-box modal-box-wide" role="dialog" aria-modal="true" aria-label="Sighting case database">
+    <button class="modal-close" onclick="closeAllCasesModal()" aria-label="Close">&times;</button>
+    <h3 style="margin-bottom:1.4rem;">Sighting Case Database</h3>
+    <div class="news-list" id="cases-list"></div>
+  </div>
+</div>
+
+<script>window.SITE_LANG = "en";</script>
+<script src="assets/video-source.js"></script>
+<script src="assets/site.js"></script>
+<!-- Netlify Identity：用於處理後台邀請/重設密碼連結 -->
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+  }
+</script>
+</body>
+</html>
